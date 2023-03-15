@@ -39,9 +39,9 @@
 
 
 #if MY_LINUX_VERSION_CODE >= KERNEL_VERSION(4,14,83)
-#include <linux/sched/task.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
+#include <task.h>
+#include <mm.h>
+#include <signal.h>
 #endif
 
 
